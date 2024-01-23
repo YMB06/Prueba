@@ -1,0 +1,103 @@
+/*
+Proyecto Web
+Youssef Miftah El Baze
+Diciembre 2023
+*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    background-image: url("/Proyecto_Web/Imagenes_y_videos/Fondo1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width:400px) {
+    Menu{
+        grid-auto-flow: row;
+        font-size: 1em;
+    } 
+}
+header, footer {
+    background-color: rgb(112, 204, 216);
+    text-align: center;
+    border: 1px solid rgb(0, 34, 128);
+    padding: 5px;
+    border-radius: 20px;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+h1, h4, footer{
+    text-shadow: 3px 3px grey;
+    text-align: center;
+    font-family: "Fuente";
+}
+@font-face {
+    font-family: "Fuente";
+    src: url(/Proyecto_Web/Fuentes/GoodOldDOSSmooth.ttf);
+}
+.Menu a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    transition: all 2s ease;
+}
+.Menu > a:hover {
+    background-color: rgba(63, 63, 62, 0.644);
+    color: black;
+    transform: scale(1) translate(0px, 10px);
+}
+.Menu{
+    border: 2px solid rgb(112, 112, 112);
+    overflow: hidden;
+    border-radius: 5%;
+}
+section {
+    padding: 20px;
+    color: white;
+    width: 50%;
+    float: left;
+}
+#Contactos, ul {
+    margin-left: 20px;
+    color: white;
+}
+.contacto {
+    background-color: black;
+    border: solid 5px black;
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+}
+.contacto h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.linea {
+    background: white;
+    height: 5px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+.formulario>* {
+    margin: 10px 0px 0px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+}

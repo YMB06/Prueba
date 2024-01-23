@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="es-ES">
+    <meta charset="utf-8">
+    <title>Título Página Web</title>
+    <link rel="stylesheet" type="text/css" href="FormularioParaProyectoWeb.CSS">
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="contact.php" method="post" class="formulario" target="_blank">
+        <input id="nombre" type="text" placeholder="Inserte su nombre" name="niNombre">
+        <input id="correo" type="email" placeholder="Correo electrónico" name="Correo electrónico">
+        <input id="tel" type="tel" placeholder="Nº de telefono" name="Nº de telefono">
+        <div>
+            <input id="radio" type="radio" placeholder="Tu Nombre" name="nombre">
+            <label for="fname"></label>
+        </div>
+        <div>
+            <input id="radio" type="radio" placeholder="Tu Nombre" name="nombre">
+            <label for="fname"></label>
+        </div>
+        <div>
+            <input id="radio" type="radio" placeholder="Tu Nombre" name="nombre">
+            <label for="fname"></label>
+        </div>
+        <div>
+            <input id="radio" type="checkbox" placeholder="Tu Nombre" name="nombre">
+            <label for="fname"></label>
+        </div>
+        <div>
+            <input id="radio" type="checkbox" placeholder="Tu Nombre" name="nombre">
+            <label for="fname"></label>
+        </div>
+        <div>
+            <input id="radio" type="checkbox" placeholder="Tu Nombre" name="nombre">
+            <label for="fname"></label>
+        </div>
+        <input type="date" id="fecha" name="fecha">
+        <input id="nombre1" type="text" placeholder="Tu Nombre" name="nombre">
+        <textarea placeholder="Expansión de dominio" rows="10" cols="30" name="mensaje"></textarea>
+        <select id="pais" name="paises">
+            <option value="australia">España</option>
+            <option value="canada" selected>Italia</option>
+        </select>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="fname">Nombre: </label>
+            <input type="text" id="fname" name="fname" value="Moisés">
+            <label for="lname">Apellidos</label>
+            <input type="text" id="lname" name="lname" value="Fernández Ruiz"><br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+        <input id="nombre1" type="submit" placeholder="Enviar" name="nombre">
+    </form>
+
+</body>
+
+</html>
