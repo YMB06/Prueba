@@ -1,0 +1,15 @@
+/*
+Proyecto Web-Formulario
+Youssef Miftah El Baze
+Enero 2024
+*/
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+.formulario>* {
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+}

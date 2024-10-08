@@ -1,0 +1,74 @@
+/*
+Información extra 
+Youssef Miftah El Baze
+Enero 2024
+*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+#videofondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+@media (min-width:400px){
+    .Menu a {
+        font-size: 1em;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px;
+        float: left;
+        width: 20%;
+        transition: all 2s ease;
+    }
+}
+@media (min-width:1200px) {
+        .Menu a{
+            font-size: 1em;
+            background-color: aqua;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 20px;
+            float: left;
+            width: 20%;
+            transition: all 2s ease;
+        } 
+}
+header, main {
+    opacity: 0.7;
+}
+header, footer {
+    background-color: rgb(112, 204, 216);
+    border: 1px solid rgb(0, 34, 128);
+    padding: 5px;
+    border-radius: 20px;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+.Menu > a:hover {
+    background-color: rgba(63, 63, 62, 0.644);
+    color: black;
+    transform: scale(1) translate(0px, 10px);
+}
+.Menu{
+    border: 2px solid rgb(112, 112, 112);
+    overflow: hidden;
+    border-radius: 5%;
+}
+iframe {
+    width: 440px; 
+    height: 300px;
+}
+#videos video {
+    width: 400px;
+    height: 200px;
+}

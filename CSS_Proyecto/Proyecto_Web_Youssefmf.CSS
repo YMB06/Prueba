@@ -1,0 +1,69 @@
+/*
+Proyecto Web
+Youssef Miftah El Baze
+Diciembre 2023
+*/
+@media (min-width:400px){
+    .Menu a {
+        font-size: 1em;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px;
+        float: left;
+        width: 20%;
+        transition: all 2s ease;
+    }
+}
+@media (min-width:1200px) {
+        .Menu a{
+            font-size: 1em;
+            background-color: aqua;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 20px;
+            float: left;
+            width: 20%;
+            transition: all 2s ease;
+        } 
+}
+section {
+    padding: 20px;
+    color: white;
+    width: 50%;
+    float: left;
+}
+p::first-letter  {
+    font-size: 30px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }

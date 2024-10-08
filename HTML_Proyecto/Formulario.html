@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="es-ES">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informática YM</title>
+    <link rel="stylesheet" type="text/css" href="/Proyecto_Web2/CSS_Proyecto/Formulario.CSS">
+    <link rel="stylesheet" type="text/css" href="/Proyecto_Web2/CSS_Proyecto/EstiloGeneral.CSS">
+    <link rel="icon" href="/Proyecto_Web2/Imagenes_y_videos/favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Informática YM</h1>
+        <h4>"Tu visión, nuestra misión"</h4>
+        <nav class="Menu">
+            <a href="/Proyecto_Web2/HTML_Proyecto/Proyecto_Web_Youssefmf.html" target="_blank">Inicio</a>
+            <a href="/Proyecto_Web2/HTML_Proyecto/Formulario.html" target="_blank">Crear cuenta</a>
+            <a href="/Proyecto_Web2/HTML_Proyecto/Productos.html" target="_blank">Productos</a>
+            <a href="/Proyecto_Web2/HTML_Proyecto/Proyecto_Web_Youssefmf.html" target="_blank">Contactos</a>
+            <a href="/Proyecto_Web2/HTML_Proyecto/info.html" target="_blank">Info</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Formulario</h1>
+    <form action="contact.php" method="post" class="formulario" target="_blank">
+        <input id="nombre" type="text" placeholder="Inserte su nombre y apellido" name="niNombre">
+        <input id="correo" type="email" placeholder="Correo electrónico" name="Correo electrónico">
+        <input id="tel" type="tel" placeholder="Nº de telefono" name="Nº de telefono">
+
+        <select id="Provincias" name="Provincias">
+            <option value="Almería">Almería</option>
+            <option value="Malaga">Málaga</option>
+            <option value="Huelva">Huelva</option>
+            <option value="Cádiz">Cádiz</option>
+            <option value="Jaén">Jaén</option>
+            <option value="Granada">Granada</option>
+            <option value="Córdoba">Córdoba</option>
+            <option value="Sevilla">Sevilla</option>
+        </select>
+        <input type="password" id="pwd" name="pwd" placeholder="Introduzca una contraseña">
+
+        <input type="password" id="pwd" name="pwd" placeholder="Vuelva a introducir la contraseña">
+
+        <div>
+            <input id="radio" type="checkbox" placeholder="Tu Nombre" name="nombre">
+            <label for="fname">Haga click aquí se desea recibir correos sobre las novedades en nuestra tienda</label>
+        </div>
+        <input id="nombre1" type="submit" placeholder="Crear cuenta" name="nombre">
+    </form>
+</main>
+<h1> </h1>
+    <footer>Youssef Miftah El Baze</footer>
+</body>
+</html>
